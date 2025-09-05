@@ -1,0 +1,17 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\CYM\\miniconda3\\envs\\jpy311\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell (jpy311)": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "& conda activate jpy311"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell (jpy311)"
+}
+
+
