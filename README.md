@@ -17,10 +17,7 @@
 
 ## 使用方法
 
-1. 克隆仓库到本地：
-   ```powershell
-git clone https://github.com/xucongzhenshen/python-class.git
-```
+1. 克隆仓库到本地：git clone https://github.com/xucongzhenshen/python-class.git
 2. 使用 Jupyter Notebook 或 VS Code 打开 `.ipynb` 文件进行学习和实验。
 3. 相关 HTML 文件可直接在浏览器中查看。
 
