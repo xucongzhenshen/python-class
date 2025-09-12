@@ -1,5 +1,5 @@
 {
-    "python.defaultInterpreterPath": "C:\\Users\\CYM\\miniconda3\\envs\\jpy311\\python.exe",
+    "python.defaultInterpreterPath": "D:\\software\\anaconda3\\envs\\jpy311\\python.exe",
     "python.terminal.activateEnvironment": true,
     "terminal.integrated.profiles.windows": {
         "PowerShell (jpy311)": {
