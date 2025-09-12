@@ -5,6 +5,10 @@ from scipy.fft import fft, fftfreq
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# 设置中文字体支持
+plt.rcParams['font.sans-serif'] = ['SimHei']  # 使用黑体
+plt.rcParams['axes.unicode_minus'] = True    # 解决负号显示问题
+
 
 # ------------------------------
 # Constants
