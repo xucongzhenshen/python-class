@@ -2,12 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import librosa  # For note-to-frequency conversion
 from scipy.fft import fft, fftfreq
-import matplotlib.pyplot as plt
 import seaborn as sns
+import warnings
 
 # 设置中文字体支持
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 使用黑体
-plt.rcParams['axes.unicode_minus'] = True    # 解决负号显示问题
+plt.rcParams['axes.unicode_minus'] = False    # 解决负号显示问题
 
 
 # ------------------------------
@@ -303,6 +303,10 @@ def plot_signal_and_fft(signal, t, time_segment, sample_rate, title,
     yf_mag = 2.0/n * np.abs(yf[:n//2])
     
     # Create subplots
+    # 设置中文字体支持
+    plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans',  'Arial']  # 使用黑体
+    plt.rcParams['axes.unicode_minus'] = False    # 解决负号显示问题
+    warnings.filterwarnings('ignore')
     fig, (ax_time, ax_freq) = plt.subplots(1, 2, figsize=(14, 4))
     
     # Time-domain plot
